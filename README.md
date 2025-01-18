@@ -1,5 +1,8 @@
 
 # Life Expectancy Prediction and Hyperparameter Optimization with Optuna
+## Project Overview
+This project predicts Life Expectancy using health expenditure data with a Random Forest Regressor. It involves preprocessing data, training a model, and optimizing its performance through Optuna to fine-tune hyperparameters. The model's accuracy is evaluated using MAE, MSE, and R². The project demonstrates the application of machine learning and hyperparameter optimization to real-world health data.
+
 ###  Hyperparameter Optimization with Optuna
 To optimize the performance of the model, **Optuna** is used to fine-tune the hyperparameters of the Random Forest Regressor:
 - **n_estimators**: Number of trees in the forest.
